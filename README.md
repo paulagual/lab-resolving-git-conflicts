@@ -30,21 +30,53 @@ Below is a summary of the steps you will follow in this lab:
 
 * Your branch in which conflicts are resolved and merged
 
-* File `your-code/about-me.md` updated with introductions about yourself
+* File `your-code/about-me.md`  with introductions about yourself
 
 ## Instructions
 
-### Step 1 - Check Local Branch Status
+### Step 1 - Create local file 
+
+Create a local `your-code/about-me.md` file and introduce yourself.
+
+Below is a template you can use to introduce yourself:
+
+    ```
+    # Who am I
+
+    * Where are you from?
+    * What do you do?
+    * Do you have previous experience with technology/data?
+
+    # Why am I here
+
+    * What has brought you to Ironhack?
+    * What knowledge/skills do you expect to learn in this bootcamp?
+
+    # What will I do after the bootcamp?
+
+    * Which industry will you seek employment in?
+    * What will your future role look like?
+    * What is your career goal?
+    ```
+
+### Step 2 - Add the new file to the staging area
+
+
+When you move files to the staging area in Git, you actually gather and prepare files for Git before committing them to the local repository. Add the  `your-code/about-me.md` file to the staging area with the "add" command
+
+
+### Step 3 - Check Local Branch Status
 
 If you work in a team, every time before you start working on the code you should check if there is any unstaged or uncommited changes in your local branch by executing `git status` within the project directory in Terminal.
 
-In the git status output, check whether there is any **file with unstaged changes** or **untracked files**. Sometimes you may also find **files with changes to be committed**. If you see any of those, you need to stage and commit the changes in Step 2. If you don't see any of those, jump to Step 3.
+In the git status output, check whether there is any **file with unstaged changes** or **untracked files**. Sometimes you may also find **files with changes to be committed**. 
 
-### Step 2 - [OPTIONAL] Stage and Commit Changes
+
+### Step 4 - Stage and Commit Changes
 
 If you identified unstaged or uncommitted changes in the previous step, you need to stage and commit those changes. Git will not allow you to sync your local branch with the remote if you have unstaged/uncommitted changes that conflict with the remote branch.
 
-To stage changes, execute `git add` for all the files that are untracked or have unstaged changes. Then commit the changes with `git commit`.
+To stage changes, execute `git add` for all the files that are untracked or have unstaged changes. Then commit the changes with `git commit`. 
 
 After committing, if you do `git status` again you should see something like:
 
@@ -54,7 +86,7 @@ Your branch is up to date with 'origin/master'.
 nothing to commit, working tree clean
 ```
 
-### Step 3 - Pull Latest Changes From the Remote Branch
+### Step 5 - Pull Latest Changes From the Remote Branch
 
 Now that you have staged and committed all changes, you can obtain the latest changes from the remote branch. This step is not required but it is generally a good practice because it can reduce the chance of conflicts when you push your code to remote. Git conflicts occur when more than one developers have changed the same regions of the same files and subsequently merge their respective branches. If you don't pull the latest changes from remote before working on the files that have remote changes, you may run into conflicts at a later time when you push your code back to remote. So it's a good idea is to obtain the latest changes from remote and start working from there.
 
@@ -100,26 +132,7 @@ In your real work you don't create conflicting changes on purpose. But for the s
 
 1. On the new branch, open `your-code/about-me.md`, remove everything in the file and replace with an introduction about yourself. 
 
-    Below is a template you can use to introduce yourself:
-
-    ```
-    # Who am I
-
-    * Where are you from?
-    * What do you do?
-    * Do you have previous experience with technology/data?
-
-    # Why am I here
-
-    * What has brought you to Ironhack?
-    * What knowledge/skills do you expect to learn in this bootcamp?
-
-    # What will I do after the bootcamp?
-
-    * Which industry will you seek employment in?
-    * What will your future role look like?
-    * What is your career goal?
-    ```
+   
 
 1. Now, add the updated `your-code/about-me.md` file to git and commit and let's assume the ID of the new commit is `338cc201764793e1896744e8fd575e3c09c97a09`. Now execute `git pull origin master` and Git will report you have a conflict that prevents you from merging the branches. Your Git tree currently looks like below.
 
@@ -135,8 +148,3 @@ After resolving the conflicts, add the fixed files and commit. In the commit mes
 
 ![Git tree with conflict resolved](conflict-merged.png)
 
-### Step 8 - Make Pull Request
-
-Make a pull request to **merge the `lab-resolving-git-conflicts` branch of your fork to the bootcamp's lab repo**. This can be done in the webpage of your bootcamp's lab repo. Select the correct repos and branches in both the *base* and *head*. Git should tell you the pull request is able to be merged. Your pull request should look like:
-
-![Git pull request](git-pull-request.png)
