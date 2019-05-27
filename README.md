@@ -36,7 +36,7 @@ Below is a summary of the steps you will follow in this lab:
 
 ### Step 1 - Create local file 
 
-Create a local `your-code/about-me.md` file and introduce yourself.
+Create a local `your-code/about-me.md` file and introduce yourself (you need to create a folder called 'your-code')
 
 Below is a template you can use to introduce yourself:
 
