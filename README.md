@@ -144,11 +144,11 @@ In your real work you don't create conflicting changes on purpose. But for the s
 
     ![Git tree with conflict](git-conflict.png)
 
-### Step 6 - Resolve Conflicts
+### Step 8 - Resolve Conflicts
 
 Resolve the conflicts in the affected files. You can see which files have conflicts by executing `git status`. You will need to examine each of the files with conflicts and fix them manually. After you are done fixing conflicts, double check / test the files to make sure you haven't missed anything.
 
-### Step 7 - Commit and push Changes
+### Step 9 - Commit and push Changes
 
 After resolving the conflicts, add the fixed files and commit. In the commit message, use descriptive words such as `resolving conflicts with master branch`. Then push your local branch to remote. Now your git tree will look like this:
 
