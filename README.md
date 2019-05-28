@@ -10,7 +10,9 @@ Resolving Git conflicts and merging branches is an import skill every software/d
 
 * At this point you should have created a fork in your own Git account from the bootcamp's lab repo. 
 
-* You should also have cloned your forked repo to your computer.
+* You should also have cloned your forked repo to your computer and navigated to the local folder 
+
+`cd <name of cloned folder >`
 
 If you have any doubts about the prerequisites please clarify with your instructor or teaching assistants.
 
