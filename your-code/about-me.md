@@ -1,7 +1,7 @@
 
     "    # Who am I\n",
     "\n",    
-    "   * I'm from Mallorca\n",
+    "   * I'm from Mallorca\n, Spain \n",
     "    * I'm a consultant for a company, and I also own small business of socks\n",
     "    * My previous experience with technology is with WordPress. With data I only have experience with excell\n",
     "\n",
@@ -14,6 +14,11 @@
     "\n",
     "    * I'm not yet sure about what I will do next. Maybe I still do consulting freelance or maybe I would look for a job in a company.\n",
     "    * I'm would like to be able to analyse economic data or marketing data.\n",
+<<<<<<< HEAD
     "    * I would like to be able to change the scope of the consulting I'm doing to one based in data analysis."
  
 
+=======
+    "    * I would like to be able to change the scope of the consulting 
+    "    * I'm doing to one based in data analysis."
+>>>>>>> c0751a7e86015e10b1be077a614d4875f06aee4f
