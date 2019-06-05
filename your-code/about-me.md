@@ -1,18 +1,19 @@
 
-    "    # Who am I in Master\n",
-    "\n",
-    "    * I'm from Mallorca, Spain\n",
-    "    * I'm a consultant for a company, and I also own small business of socks\n",
-    "    * My previous experience with technology is with WordPress. With data I only have experience with excell\n",
-    "\n",
-    "    # Why am I here\n",
-    "\n",
-    "    * I have always been interested in programing and the analysis of the data, but never had the oportunity to learn it deeply. \n",
-    "    * I expect to learn the ability to analyse bigs sets of data and forecast the future. \n",
-    "\n",
-    "    # What will I do after the bootcamp?\n",
-    "\n",
-    "    * I'm not yet sure about what I will do next. Maybe I still do consulting freelance or maybe I would look for a job in a company.\n",
-    "    * I'm would like to be able to analyse economic data or marketing data.\n",
-    "    * I would like to be able to change the scope of the consulting 
-    "    * I'm doing to one based in data analysis."
+	# Who am I ?
+
+	* I'm from Mallorca, Spain
+	* I'm a consultant for a company, and I also own small business of socks
+	* My previous experience with technology is with WordPress. With data I only have experience with excel
+
+
+	# Why am I here
+
+	* I have always been interested in programing and the analysis of the data, but never had the opportunity to learn it deeply. 
+	* I expect to learn the ability to analyze bigs sets of data and forecast the future.
+
+	# What will I do after the bootcamp?
+
+	* I'm not yet sure about what I will do next. 
+	* I'm would like to be able to analyze economic data or marketing data.
+	* I would like to be able to change the scope of the consulting.
+	* I'm doing to one based in data analysis.
